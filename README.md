@@ -4,7 +4,7 @@ MobilityCorp Agentic AI System - Overview Executive Summary
 
 MobilityCorp's challenges around vehicle availability, charging optimization, and customer engagement are solved through a multi-agent AI system. Five specialized agents work collaboratively to predict demand, optimize vehicle distribution, manage charging, engage customers proactively, and ensure compliance.
 
-Problem-Solution Mapping Challenge 1: Wrong Vehicles in Wrong Places 
+1. Wrong Vehicles in Wrong Places 
 
 Solution: Demand Prediction Agent + Redistribution Agent
 
@@ -14,13 +14,17 @@ Historical booking patterns Time of day, day of week, seasonality External event
 
 The Redistribution Agent acts on these predictions by:
 
-Calculating optimal vehicle distribution across parking bays Generating efficient routes for staff to move vehicles Prioritizing which vehicles to relocate first Balancing current demand with predicted future needs Challenge 2: Electric Vehicles Running Out of Charge 
+Calculating optimal vehicle distribution across parking bays Generating efficient routes for staff to move vehicles Prioritizing which vehicles to relocate first Balancing current demand with predicted future needs Challenge.
+
+2: Electric Vehicles Running Out of Charge 
 
 Solution: Charging Optimization Agent
 
 This agent prioritizes battery swaps for bikes/scooters and charging for cars/vans by:
 
-Monitoring real-time battery levels across the fleet Predicting which vehicles will be needed soonest (using Demand Agent data) Creating prioritized work queues for staff Ensuring high-demand locations always have charged vehicles Minimizing dead battery incidents Challenge 3: Low Frequency Usage / Customer Engagement 
+Monitoring real-time battery levels across the fleet Predicting which vehicles will be needed soonest (using Demand Agent data) Creating prioritized work queues for staff Ensuring high-demand locations always have charged vehicles Minimizing dead battery incidents Challenge.
+
+3: Low Frequency Usage / Customer Engagement 
 
 Solution: Engagement Agent
 
